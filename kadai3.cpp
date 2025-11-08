@@ -3,15 +3,15 @@
 
 void convert(int year) {
     if(year>=2019) {
-      printf("ä»¤å’Œ%då¹´\n",year-2018);
+      printf("—ß˜a%d”N\n",year-2018);
     }
     else if(year>=1989) {
-        printf("å¹³æˆ%då¹´\n",year-1988);
+        printf("•½¬%d”N\n",year-1988);
     }
     else if(year>=1926) {
-        printf("æ˜­å’Œ%då¹´\n",year-1925);
+        printf("º˜a%d”N\n",year-1925);
     }
-    // TODO: å®Ÿè£…1887
+    // TODO: À‘•1887
 }
 
 void convert(const char era[], int year) {
@@ -25,5 +25,5 @@ void convert(const char era[], int year) {
         printf("%d\n",1925+year);
     }
 
-    // TODO: å®Ÿè£…R7
+    // TODO: À‘•R7
 }

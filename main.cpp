@@ -12,6 +12,7 @@ int main() {
     printf("%.2f\n", bmi(1.72, 80));
 
     //課題3
+    convert("R", 7);
     convert(2020);
     //convert(???)
 
